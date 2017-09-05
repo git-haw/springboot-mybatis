@@ -1,4 +1,4 @@
-package top.haw358.mvc.config;
+package top.haw358.springboot.mvc.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

@@ -1,4 +1,4 @@
-package top.haw358;
+package top.haw358.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

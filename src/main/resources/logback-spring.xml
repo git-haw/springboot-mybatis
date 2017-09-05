@@ -33,16 +33,16 @@
     <!-- logback为java中的包 -->
     <logger name="top.haw358.controller"/>
     <!--logback.LogbackDemo：类的全路径 -->
-    <logger name="top.haw358.SpringbootMybatisApplication" level="WARN" additivity="false">
+    <logger name="top.haw358.springboot.SpringbootMybatisApplication" level="WARN" additivity="false">
         <appender-ref ref="console"/>
     </logger>
 
     <!-- 测试环境+开发环境. 多个使用逗号隔开. -->
     <springProfile name="test,dev">
-        <logger name="top.haw358.controller" level="info" />
+        <logger name="top.haw358.springboot.controller" level="info" />
     </springProfile>
     <!-- 生产环境. -->
     <springProfile name="prod">
-        <logger name="top.haw358.controller" level="ERROR" />
+        <logger name="top.haw358.springboot.controller" level="ERROR" />
     </springProfile>
 </configuration>

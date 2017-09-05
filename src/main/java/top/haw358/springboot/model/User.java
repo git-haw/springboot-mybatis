@@ -1,4 +1,4 @@
-package top.haw358.model;
+package top.haw358.springboot.model;
 
 import java.util.Date;
 import javax.persistence.*;

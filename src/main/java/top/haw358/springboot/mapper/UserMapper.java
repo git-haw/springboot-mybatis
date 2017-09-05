@@ -1,11 +1,8 @@
-package top.haw358.mapper;
+package top.haw358.springboot.mapper;
 
-import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
-import top.haw358.model.User;
-import top.haw358.util.BaseMapper;
-
-import java.util.List;
+import top.haw358.springboot.model.User;
+import top.haw358.springboot.util.BaseMapper;
 
 @Repository
 public interface UserMapper extends BaseMapper<User> {

@@ -40,7 +40,7 @@
 
 # MyBatis
 #mybatis:
-#    typeAliasesPackage: top.haw358.model
+#    typeAliasesPackage: top.haw358.springboot.model
 #    mapperLocations: classpath:/mapper/*.xml
 #    configLocation: classpath:/mybatis-config.xml
 
@@ -48,7 +48,7 @@
 #mappers 多个接口时逗号隔开
 #mapper:
 #  mappers:
-#    - top.haw358.util.BaseMapper
+#    - BaseMapper
 #  not-empty: false
 #  identity: MYSQL
 

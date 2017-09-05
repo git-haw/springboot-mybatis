@@ -1,4 +1,4 @@
-package top.haw358.util;
+package top.haw358.springboot.util;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

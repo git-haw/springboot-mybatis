@@ -12,7 +12,7 @@
         <property name="endingDelimiter" value="`"/>
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="top.haw358.util.BaseMapper"/>
+            <property name="mappers" value="top.haw358.springboot.util.BaseMapper"/>
         </plugin>
 
         <commentGenerator>
@@ -34,7 +34,7 @@
         <javaModelGenerator targetPackage="top.haw358.model" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
-            <property name="rootClass" value="top.haw358.model.BaseEntity"/>
+            <property name="rootClass" value="top.haw358.springboot.model.BaseEntity"/>
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
@@ -47,8 +47,7 @@
              ANNOTATEDMAPPER
              XMLMAPPER
              -->
-        <javaClientGenerator targetPackage="top.haw358.mapper" targetProject="src/main/java" type="XMLMAPPER">
-            <!--<property name="rootInterface" value="top.haw358.util.BaseMapper"/>-->
+        <javaClientGenerator targetPackage="top.haw358.springboot.mapper" targetProject="src/main/java" type="XMLMAPPER">
         </javaClientGenerator>
 
         <table tableName="t_user" domainObjectName="User" enableCountByExample="true" enableUpdateByExample="true"

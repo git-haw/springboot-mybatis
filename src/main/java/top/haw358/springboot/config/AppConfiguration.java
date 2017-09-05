@@ -1,4 +1,4 @@
-package top.haw358.config;
+package top.haw358.springboot.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
